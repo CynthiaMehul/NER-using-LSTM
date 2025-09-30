@@ -5,17 +5,18 @@
 To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
-
+Identification of named entities is a major task in Natual Language Processing. To perform Named Entity Recognition, BiDirectional LSTM (Long Short Term Memory) can be used. The dataset used has various sentences along with its words and the corresponding tags. The task is to build a model that can classify these words into the right tags.
 
 ## DESIGN STEPS
 
 ### STEP 1:
+Import required libraries in python to build your model and train it. Load your dataset and store required fields into different variables.
 
 ### STEP 2:
+Allocate indexes for each unique word. Groud the words of each sentences and add the unique indexes for the words of each sentence. Split the dataset for training and testing. 
 
 ### STEP 3:
-
-Write your own steps
+Build your BiDirectional LSTM Model. It consists of embedding layer to convert the indexes of each word into vectors. Use dropout method to prevent overfitting. Specify the lstm and linear layer. 
 
 ## PROGRAM
 ### Name:
